@@ -12226,3 +12226,8 @@ span {
 .picons {
   width: 20vw;
 }
+
+.imagee {
+  background-image: url(../image/fun-bg.jpg);
+  height: 35vh;
+}

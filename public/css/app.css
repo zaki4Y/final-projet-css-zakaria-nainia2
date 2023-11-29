@@ -12191,3 +12191,38 @@ textarea.form-control-lg {
 span {
   color: blue;
 }
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+}
+
+.iconss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+}
+
+.icons1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  padding: 1vh;
+}
+
+.fa-solid {
+  border: 1px solid gray;
+  border-radius: 50px 50px;
+  padding: 2vw;
+  width: 5vw;
+}
+
+.picons {
+  width: 20vw;
+}

@@ -12200,6 +12200,11 @@ span {
   width: 95vw;
 }
 
+.section3 {
+  background-color: rgba(42, 96, 182, 0.701);
+  height: 30vh;
+}
+
 .iconss {
   display: flex;
   align-items: center;
@@ -12250,4 +12255,8 @@ span {
 
 .bg-grayy {
   background: #f9f9f9;
+}
+
+.card2 {
+  width: 200vw;
 }

@@ -12235,3 +12235,15 @@ span {
 .section6 {
   background: #1a76d1;
 }
+.section6 .milieu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.button1 {
+  background: red;
+  width: 90vw;
+}

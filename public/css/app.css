@@ -12165,6 +12165,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+a {
+  position: relative;
+}
+a::before {
+  content: "";
+  position: absolute;
+  left: 0vw;
+  bottom: -30%;
+  width: 0;
+  background: #0d6efd;
+  height: 4px;
+  border-radius: 4px;
+  transition: ease-in-out 0.3s;
+}
+a:hover::before {
+  width: 100%;
+}
+
 .img1 {
   background-image: url(../image/slider.jpg);
   height: 75vh;
@@ -12256,6 +12274,13 @@ span {
   background: #f9f9f9;
 }
 
+.section9 {
+  height: 95vh;
+}
+.section9 .cardd {
+  width: 70%;
+}
+
 .card2 {
   width: 200vw;
 }
@@ -12263,6 +12288,22 @@ span {
 .section10 {
   background-image: linear-gradient(to bottom, rgba(58, 146, 234, 0.52), rgba(19, 58, 117, 0.73)), url(../image/client-bg.jpg);
   height: 35vh;
+}
+
+.sec-9 {
+  padding-bottom: 6vw;
+}
+.sec-9 .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 0 28vw;
+  text-align: center;
+}
+.sec-9 .top h1, .sec-9 .top .h1 {
+  font-weight: bold;
 }
 
 .section12 {

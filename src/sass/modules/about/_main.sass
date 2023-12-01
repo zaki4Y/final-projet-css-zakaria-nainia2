@@ -1,3 +1,21 @@
+
+a 
+    position: relative
+            &::before
+                content: ""
+                position: absolute
+                left: 0vw
+                bottom: -30%
+                width: 0
+                background: $blue
+                height: 4px
+                border-radius: 4px
+                transition: ease-in-out 0.3s
+            &:hover::before 
+                width: 100%
+            
+
+    
 .img1
     background-image: url(../image/slider.jpg)
     height: 75vh
@@ -30,13 +48,12 @@ span
     align-items: center
     width: 95vw
 
+
 .section3
     background-color: rgba(42, 96, 182, 0.701) 
     height: 30vh
     
-    
-    
-    
+
 
 .iconss
     display: flex
@@ -71,9 +88,6 @@ span
     
 
 
-
-
-
 .section6
     background: #1a76d1
     .milieu  
@@ -88,6 +102,15 @@ span
 
 .bg-grayy
     background: #f9f9f9
+    
+
+.section9
+    height: 95vh
+    .cardd
+        width: 70%
+        
+
+
 
 
 .card2
@@ -98,11 +121,19 @@ span
     height: 35vh
 
     
-   
-    
-    
-    
-    
+.sec-7
+    padding-bottom: 6vw
+    .top
+        display: flex
+        flex-direction: column
+        justify-content: center
+        gap: 10px
+        align-items: center
+        padding: 0 28vw
+        text-align: center
+        h1
+            font-weight: bold
+
 
 
 .section12
@@ -119,9 +150,6 @@ span
         padding: 10px
 
 
- 
-
-
 .footeeer
     width: 80%
     .icons-footeer
@@ -131,3 +159,32 @@ span
         width: 1vw
 
 
+
+
+
+
+
+.icons1 
+    position: relative
+    display: inline-block
+    color: white
+    background-image: linear-gradient(#363636, #363636)
+    background-position: 50% 50%
+    background-repeat: no-repeat
+    background-size: 0% 100%
+    transition: background-size .5s, color .5s
+    .icons1:hover 
+        background-size: 100% 100%
+        color: #fff
+
+.form-control
+    &::placeholder
+        color: white
+
+
+
+
+
+
+
+@media   ( max-width: 430px )
